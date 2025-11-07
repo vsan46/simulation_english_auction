@@ -9,11 +9,17 @@ How It Works: The 3 Key ElementsThe Process (Ascending Bids)
 
 The auctioneer starts the bidding at a low opening price or a "reserve price" (the minimum the seller will accept).
 
-Bidders must place a bid that is higher than the current highest bid.This process continues as long as people are willing to outbid each other.The auction ends when no one is willing to place a new, higher bid.
+Bidders must place a bid that is higher than the current highest bid.
+
+This process continues as long as people are willing to outbid each other.
+
+The auction ends when no one is willing to place a new, higher bid.
 
 The auctioneer typically calls "Going once... going twice... sold!"
 
-The WinnerThe winner is the last person to have placed a bid. They are the bidder who was willing to go the highest and was not outbid by anyone else.
+The Winner
+
+The winner is the last person to have placed a bid. They are the bidder who was willing to go the highest and was not outbid by anyone else.
 
 The Price
 
@@ -29,9 +35,13 @@ Why? If the price is $100$ and you value the item at $200$, you should keep bidd
 
 Why stop? If you value the item at $200$ and the bidding reaches $201$, you should drop out. Winning at that price would mean you paid more than the item was worth to you, resulting in a loss.
 
-A Deeper Insight (How It Relates to Your Simulation)This simple strategy leads to a very interesting outcome, which is what our Python simulation was built on.
+A Deeper Insight (How It Relates to Your Simulation)
 
-Imagine Bidder A values the item at $200$.Imagine Bidder B values the item at $150$.The bidding will start low and both will bid.
+This simple strategy leads to a very interesting outcome, which is what our Python simulation was built on.
+
+Imagine Bidder A values the item at $200$.Imagine Bidder B values the item at $150$.
+
+The bidding will start low and both will bid.
 
 The price will eventually pass $150$.At this point, Bidder B (who only values it at $150$) will drop out, following the optimal strategy.
 
