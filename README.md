@@ -1,20 +1,15 @@
-# simulation_english_auction
-Monte Carlo simulation of an English Auction (Ascending Bid)
+## simulation_english_auction
+# Monte Carlo simulation of an English Auction (Ascending Bid)
 
 An English Auction is an open, public auction where bidders openly compete against each other.
-
 The core mechanic is that the price starts low and is driven upward by successive bids.
 
-How It Works: The 3 Key ElementsThe Process (Ascending Bids)
+# How It Works: The 3 Key ElementsThe Process (Ascending Bids)
 
 The auctioneer starts the bidding at a low opening price or a "reserve price" (the minimum the seller will accept).
-
 Bidders must place a bid that is higher than the current highest bid.
-
 This process continues as long as people are willing to outbid each other.
-
 The auction ends when no one is willing to place a new, higher bid.
-
 The auctioneer typically calls "Going once... going twice... sold!"
 
 The Winner
